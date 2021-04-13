@@ -48,15 +48,16 @@ print(math.factorial(5))
 print(math.trunc(78.98))  # ignore decimal points
 
 
-# In[18]:
+# In[2]:
 
 
+import math
 # by default base is e
 print("natural logarithm of e =", math.log(math.e)) # lne = 1
-print("loagatihm base 5 of 14 is =", math.log(14,5)) # log5(14)
-print("loagatihm base 10 of 14 is =", math.log(14,10)) # log10(14)
-print("loagatihm base 10 of pi is =", math.log(math.pi,10)) 
-print("loagatihm base 10 of pi is =", math.log10(math.pi))
+print("logarithm base 5 of 14 is =", math.log(14,5)) # log5(14)
+print("logarithm base 10 of 14 is =", math.log(14,10)) # log10(14)
+print("logarithm base 10 of pi is =", math.log(math.pi,10)) 
+print("logarithm base 10 of pi is =", math.log10(math.pi))
 
 
 # In[19]:
