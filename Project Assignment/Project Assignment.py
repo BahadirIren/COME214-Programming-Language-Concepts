@@ -1,10 +1,19 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[3]:
 
 
-# 1
+
+'''
+1) Write a game of rock paper scissors, one of the choices will be from the user 
+and the other from the computer (use random) Print results for each game.
+Play the games in a row until you exit the game. Explain each step as comment.
+
+Game rules:
+Rock crushes scissors, you win. Paper covers rock, you win. Scissors cut paper, you win.
+'''
+
 # imported randint from random in order to generate random numbers
 from random import randint
 
@@ -100,7 +109,12 @@ while not is_finished:
 # In[2]:
 
 
-# 2
+'''
+2) Write a program that sorts a list in ascending order. 
+Don’t use sort method. Ask user number of list elements (at least 10 elements)
+Enter all elements from keyboard and printed.
+Sort your list.
+'''
 
 # defined function called sort_list and accepts list as a paramater
 def sort_list(list):
@@ -135,7 +149,15 @@ print("Elements after sorting the list in ascending order is: ", sort_list(list)
 # In[11]:
 
 
-# 3 
+'''
+3) Write a program that calculates frequency of subtext entered by the user in the given paragraph. 
+Use below text as a string;
+
+Corpus= “Doubt thou the stars are fire;
+Doubt that the sun doth move;
+Doubt truth to be a liar; 
+But never doubt I love.”
+'''
 
 # defined a variable in order to store text
 corpus_original = ('''
@@ -173,7 +195,20 @@ print("The frequency of subtext in Corpus is:", frequency)
 # In[21]:
 
 
-# 4
+'''
+4) Write a code for craps game.
+Craps is a dice game in which the players make wagers on the outcome of the roll, 
+or a series of rolls, of a pair of dice.
+
+The rules of the dice game craps are as follows:
+You roll two dice. Each die has six faces, which contain one, two, three, four, five and six spots, respectively.
+After the dice have come to rest, the sum of the spots on the two upward faces is calculated. 
+If the sum is 7 or 11 on the first throw, you win and play is over. 
+If the sum is 2, 3 or 12 on the first throw you lose and play is over.
+If the sum is 4,5,6,8,9 or 10 on the first throw, that sum becomes your “point.” 
+To win, you must continue rolling the dice until you “make your point” (i.e., roll that same point value). 
+You lose by rolling a 7 before making your point.
+'''
 
 # imported random in order to generate random numbers
 import random
@@ -240,7 +275,12 @@ else:
 # In[28]:
 
 
-# 5 
+'''
+5) Write a program which prompts the user for their age. 
+If they are 19 or younger inform them that qualify for student discounts. 
+If they are between 20 and 65 inform them that they qualify for no age discounts. 
+If they are 65 or over inform them that they can receive senior discounts.
+'''
 
 # in order to handle the wrong input
 try:
@@ -279,7 +319,11 @@ except:
 # In[245]:
 
 
-# 6
+'''
+6) Write a program from decimal to any base, 
+ask the user for a decimal number and convert entered base by the user. 
+(Your program should support bases between 2 and 16 .)
+'''
 
 # defined function called decimal_to_base and accepts number and base as a parameters
 def decimal_to_base(number, base):
@@ -320,7 +364,9 @@ else:
 # In[9]:
 
 
-# 7
+'''
+7) Write all permutation for ABC (Consider as a letter A, B,C).
+'''
 
 # created text list and initialize with A, B, C values
 text = ['A','B','C']
@@ -351,7 +397,12 @@ else:
 # In[29]:
 
 
-# 8 
+'''
+8) Write a program to check given text is palindrome or not.
+
+A palindrome is a word, number, phrase, or other sequence of characters
+which reads the same backward as forward, such as madam or racecar.
+'''
 
 # imported string in order to use standart string library
 import string
@@ -390,10 +441,13 @@ else:
     print(f"\n{text_original} is not a palindrome")
 
 
-# In[32]:
+# In[2]:
 
 
-# 9 
+'''
+9) Define a function that can accept two strings as input and print the string with maximum length in console. 
+If two strings have the same length, then the function should print all strings line by line.
+'''
 
 # defined a function called compare_strings and accepts two string variables as parameters
 def compare_strings(string1, string2):
@@ -424,10 +478,12 @@ string2 = input("Enter second string: ")
 compare_strings(string1,string2)
 
 
-# In[213]:
+# In[1]:
 
 
-# 10
+'''
+10) Write a program that reads a year from the user and show it is a leap year or not.
+'''
 
 # asks user to enter a year
 year = int(input("Enter a year: "))
