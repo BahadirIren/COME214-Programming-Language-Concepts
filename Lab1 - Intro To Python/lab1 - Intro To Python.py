@@ -24,7 +24,7 @@ print("Welcome","to","Python")
 print("Welcome\nto\nPython")
 
 
-# In[10]:
+# In[6]:
 
 
 # comment line
@@ -44,23 +44,23 @@ print(137%11) # remainder
 print(2**3) # pow
 
 
-# In[13]:
+# In[1]:
 
 
-45+85
+print(45+85)
 
 
-# In[14]:
+# In[2]:
 
 
 x=45
-type(x)
+print(type(x))
 
 
-# In[15]:
+# In[3]:
 
 
-2+0.5
+print(2+0.5)
 
 
 # In[16]:
@@ -86,16 +86,16 @@ print(7/4)
 print(7//4) # takes int part
 
 
-# In[20]:
+# In[4]:
 
 
-1660%5
+print(1660%5)
 
 
-# In[21]:
+# In[5]:
 
 
-1.5e2 # e means 10 to the power
+print(1.5e2) # e means 10 to the power
 
 
 # In[24]:
